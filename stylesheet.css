@@ -1,1 +1,65 @@
-css
+/* Steffens CSS*/
+/* Basics*/
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Libre Franklin', sans-serif;
+
+}
+
+header {
+  width: 100%;
+  height: 89px;
+  background-color: #1B1D1E;
+}
+
+main {
+  background-color: #f8f8f8;
+}
+
+footer {
+  width: 100%;
+  height: 70px;
+  background-color: #1B1D1E;
+}
+
+h1 {
+  color: #E6CD62;
+  font-family: 'Sail';
+  display: inline;
+  font-size: 25px;
+}
+
+.headerposition{
+  position: relative;
+  left: 30px;
+  bottom: 45%;
+
+}
+
+
+/*navbar */
+nav {
+  background-color: #631025;
+  height: 45px;
+}
+ul {
+    list-style-type: none;
+    width: 100%;
+}
+
+li{
+    float: left;
+    width: 25%;
+}
+
+li a {
+  display: block;
+  color: #E6CD62;
+  text-align: center;
+  text-decoration: none;
+  font-size: 11px;
+  padding: 20% 0;
+}
