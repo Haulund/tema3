@@ -32,6 +32,22 @@ h1 {
   font-size: 25px;
 }
 
+h2 {
+  font-size: 20px;
+  font-family: 'Yantramanav';
+  margin-top: 10px;
+  color: #95989A;
+}
+
+p {
+  font-size: 15px;
+  color: #95989A;
+}
+
+section {
+  margin: 0,5rem;
+  margin: 1rem;
+}
 .headerposition{
   position: relative;
   left: 30px;
@@ -61,5 +77,31 @@ li a {
   text-align: center;
   text-decoration: none;
   font-size: 11px;
-  padding: 20% 0;
+  padding: 15px 0;
 }
+
+/* footer */
+i {
+  color: #f8f8f8;
+  margin-top: 1.2rem;
+  margin-left: 1rem;
+}
+
+.footerpos {
+  display: block;
+  float: right;
+  clear:both;
+}
+
+.footercolor{
+  color: #E6CD62;
+}
+
+/*efter breaking point*/
+
+@media screen and (min-width: 768px){
+  
+}
+
+/* google maps API */
+AIzaSyDLP_fevootgLSkqI3Y89imJItuSLTHgnE
