@@ -6,13 +6,20 @@
   padding: 0;
   margin: 0;
   font-family: 'Libre Franklin', sans-serif;
+}
 
+html {
+  background-color: #f8f8f8;
 }
 
 header {
   width: 100%;
   height: 89px;
   background-color: #1B1D1E;
+}
+
+.desklogo {
+  display: none;
 }
 
 main {
@@ -23,6 +30,7 @@ footer {
   width: 100%;
   height: 70px;
   background-color: #1B1D1E;
+  clear: both;
 }
 
 h1 {
@@ -90,17 +98,78 @@ i {
 .footerpos {
   display: block;
   float: right;
-  clear:both;
+  clear: both;
 }
 
 .footercolor{
   color: #E6CD62;
 }
 
+/*Freja specific*/
+
+.fhforside{
+  height: auto;
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 /*efter breaking point*/
 
 @media screen and (min-width: 768px){
-  
+  li{
+      float: right;
+      width: 100px;
+  }
+
+  header {
+    height: 217px;
+  }
+
+  .mobilelogo{
+    display: none;
+  }
+
+  .desklogo{
+    display: inline;
+  }
+
+  h1{
+    font-size: 70px;
+  }
+
+  section {
+    margin-left: 40px;
+  }
+
+  .wideadress{
+    float: right;
+    width: 50%;
+    margin-top: 150px;
+  }
+
+  .widevision {
+    width: 30%;
+  }
+
+  .widemaps {
+    float: right;
+    max-width: 768px;
+  }
+
+  .iframepos {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+  }
+  /*Freja Specific */
+  .fhforside{
+    max-width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 /* google maps API */
